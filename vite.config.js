@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 //https://vitejs.dev/config/
 export default defineConfig({
-  // base: "/fast-react-pizza-project/",
-  //
+  base: "/fast-react-pizza-project/",
+
   plugins: [react()],
 });
