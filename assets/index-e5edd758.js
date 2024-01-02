@@ -83,11 +83,11 @@ Error generating stack: `+i.message+`
              px-3 py-1 text-sm font-semibold
               uppercase tracking-wide text-green-50`,children:[n," order"]})]})]}),k.jsxs("div",{className:`flex flex-wrap items-center
        justify-between gap-2 bg-stone-200 px-6 py-5`,children:[k.jsx("p",{className:"font-medium",children:a>=0?`Only ${wf(o)} minutes left 😃`:"Order should have arrived"}),k.jsxs("p",{className:"text-xs text-stone-500",children:["(Estimated delivery: ",F1(o),")"]})]}),k.jsx("ul",{className:`dive-stone-200 divide-y 
-      border-b border-t`,children:u.map(s=>k.jsx(zh,{item:s},s.pizzaId))}),k.jsxs("div",{className:"space-y-2 bg-stone-200 px-6 py-5",children:[k.jsxs("p",{className:"text-sm font-medium text-stone-600",children:["Price pizza: ",dn(i)]}),r&&k.jsxs("p",{className:"text-sm font-medium text-stone-600",children:["Price priority: ",dn(l)]}),k.jsxs("p",{className:"font-bold",children:["To pay on delivery: ",dn(i+l)]})]})]})}async function q1({params:e}){return await O1(e.orderId)}function b1(){const[e,t]=R.useState(""),n=fo();function r(l){l.preventDefault(),e&&(n(`/order/${e}`),t(""))}return k.jsx("form",{onSubmit:r,children:k.jsx("input",{placeholder:"Search order #",value:e,onChange:l=>t(l.target.value),className:`w-28 rounded-full bg-yellow-100 px-4\r
-        py-2 text-sm transition-all duration-300 \r
-        placeholder:text-stone-400 focus:outline-none\r
-        focus:ring focus:ring-yellow-500 \r
-        focus:ring-opacity-50 sm:w-64 sm:focus:w-72`})})}function ew(){const e=vt(t=>t.user.username);return e?k.jsx("div",{className:`hidden text-sm font-semibold \r
+      border-b border-t`,children:u.map(s=>k.jsx(zh,{item:s},s.pizzaId))}),k.jsxs("div",{className:"space-y-2 bg-stone-200 px-6 py-5",children:[k.jsxs("p",{className:"text-sm font-medium text-stone-600",children:["Price pizza: ",dn(i)]}),r&&k.jsxs("p",{className:"text-sm font-medium text-stone-600",children:["Price priority: ",dn(l)]}),k.jsxs("p",{className:"font-bold",children:["To pay on delivery: ",dn(i+l)]})]})]})}async function q1({params:e}){return await O1(e.orderId)}function b1(){const[e,t]=R.useState(""),n=fo();function r(l){l.preventDefault(),e&&(n(`/order/${e}`),t(""))}return k.jsx("form",{onSubmit:r,children:k.jsx("input",{placeholder:"Search order #",value:e,onChange:l=>t(l.target.value),className:`  w-28\r
+        rounded-full bg-yellow-100 px-4 py-2 \r
+        text-sm transition-all\r
+        duration-300 placeholder:text-stone-400 \r
+        focus:outline-none focus:ring  focus:ring-yellow-500 focus:ring-opacity-50 sm:w-64 sm:focus:w-72 `})})}function ew(){const e=vt(t=>t.user.username);return e?k.jsx("div",{className:`hidden text-sm font-semibold \r
     md:block`,children:e}):null}function tw(){return k.jsxs("header",{className:`  flex items-center justify-between border-b\r
      border-stone-200 bg-yellow-500 px-4 py-3 uppercase sm:px-6`,children:[k.jsx(mo,{to:"/",className:"tracking-widest",children:"fast react pizza co."}),k.jsx(b1,{}),k.jsx(ew,{})]})}function nw(){const e=vt(V1),t=vt(_h);return e?k.jsxs("div",{className:`flex items-center justify-between bg-stone-800 px-4
      py-4 text-sm uppercase text-stone-200 sm:px-6 md:text-base`,children:[k.jsxs("p",{className:`space-x-4 font-semibold
