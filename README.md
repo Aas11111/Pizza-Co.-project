@@ -1,1 +1,2 @@
-# fast-react-pizza-project
+# Pizza-Co.-project
+
