@@ -7,6 +7,7 @@ function OrderItem({ item, isLoadingIngredients, ingredients }) {
     ingredients,
   };
   const { quantity, name, totalPrice } = item;
+  console.log(item);
 
   return (
     <li className="py-3 ">
@@ -17,6 +18,7 @@ function OrderItem({ item, isLoadingIngredients, ingredients }) {
         <p>
           <span className="font-bold">{quantity}&times;</span> {name}
         </p>
+
         <p className="font-bold">{formatCurrency(totalPrice)}</p>
       </div>
     </li>
